@@ -1,6 +1,31 @@
 {
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "sass": "^1.76.0"
+  },
+  "name": "bootstrap-template",
+  "description": "Explore this Bootstrap 5 template, designed to provide a modern and responsive foundation for web development projects. I",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass scss:css",
+    "sass:watch": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Menayer/Bootstrap-Template.git"
+  },
+  "keywords": [
+    "bootstrap5"
+  ],
+  "author": "Menayer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Menayer/Bootstrap-Template/issues"
+  },
+  "homepage": "https://github.com/Menayer/Bootstrap-Template#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
